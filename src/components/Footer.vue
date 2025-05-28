@@ -3,7 +3,9 @@
     <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
       <!-- Address -->
       <div>
-        <h2 class="text-xl font-bold mb-2">Masala Marvel</h2>
+        <RouterLink to="/">
+            <img class="h-12 mb-2" src="../assets/logo-1.png" alt="Masala Marval">
+        </RouterLink>
         <p>Holiday Village Rd,<br />Vakil Garden City,<br />Bengaluru, Karnataka - 560062</p>
       </div>
 
@@ -35,7 +37,7 @@
 
     <!-- Bottom Note -->
     <div class="text-center text-sm mt-8 text-gray-400">
-      &copy; 2025 Masala Marvel. All rights reserved.
+      Masala Marval &copy; 2025. All rights reserved.
     </div>
   </footer>
 </template>

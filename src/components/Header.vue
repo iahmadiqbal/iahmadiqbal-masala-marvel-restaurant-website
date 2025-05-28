@@ -1,12 +1,15 @@
 <template>
-  <nav class="bg-white shadow-md px-6 py-4 flex items-center justify-between">
+  <nav class="bg-gray-900 shadow-md px-6 py-4 flex items-center justify-between">
     <!-- Logo -->
-    <div class="text-2xl font-bold text-red-600">
+    <!-- <div class="text-2xl font-bold text-red-600">
        MASALA MARVEL
-    </div>
+    </div> -->
+    <router-link to="">
+      <img class="h-12" src="../assets/logo-1.png" alt="Masala Marvel">
+    </router-link>
 
     <!-- Nav Links -->
-    <ul class="flex space-x-6 text-gray-700 font-medium">
+    <ul class="flex space-x-6 text-white font-medium">
       <li>
         <router-link to="/" class="hover:text-red-600">Home</router-link>
       </li>
