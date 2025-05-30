@@ -1,4 +1,5 @@
 <template>
+
   <!-- Section 1 (Original) -->
   <section class="bg-gradient-to-br from-red-50 via-red-100 to-white text-gray-800 py-16 px-6 md:px-20">
     <!-- Hero Header -->
@@ -16,6 +17,8 @@
         Book a Table
       </button>
     </div>
+      
+
 
     <!-- Info Cards -->
     <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-12 max-w-6xl mx-auto">
