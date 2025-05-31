@@ -45,47 +45,22 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
-  name: 'OurMenu',
+  name: "OurMenu",
   data() {
     return {
-      foodItems: {
-        Starters: {
-          Veg: [
-            { name: "Spring Roll", img: "images/sprin-roll.jpg", description: "Crispy rolls filled with vegetables." },
-            { name: "Hara Bhara Kabab", img: "images/hara-bara-kabab.jpg", description: "Healthy kababs made with spinach and peas." },
-            { name: "Paneer Tikka", img: "images/paneer-tika.jpg", description: "Grilled paneer chunks marinated in spices." },
-            { name: "Dahi Bhalla Chaat", img: "images/dahi-bala-chat.jpg", description: "Soft lentil balls in seasoned yogurt." },
-            { name: "Veg Momos", img: "images/momos.jpg", description: "Steamed dumplings stuffed with veggies." },
-            { name: "Corn Cheese Balls", img: "images/corn-cheez.jpg", description: "Crispy balls with corn and melted cheese." },
-            { name: "Mini Samosas", img: "images/Minisamosa.webp", description: "Bite-sized samosas filled with spicy potatoes." },
-            { name: "Stuffed Mushrooms", img: "images/StuffedMushrooms.jpg", description: "Mushrooms stuffed with cheese and herbs." }
-          ],
-          "Non-Veg": [
-            { name: "Chilli Prawns", img: "images/Chilli-Prawns.jpg", description: "Spicy prawns tossed with bell peppers." },
-            { name: "Chicken Manchurian", img: "images/Indo-Chinese.jpg", description: "Indo-Chinese chicken in tangy sauce." },
-            { name: "Seekh Kebab", img: "images/Seekh-Kebab.jpg", description: "Spiced minced meat grilled on skewers." },
-            { name: "Mutton Vadai", img: "images/Mutton-Vadai.jpg", description: "Crispy mutton patties deep fried to perfection." },
-            { name: "Peri Peri Fish Fingers", img: "images/fish-fingers.webp", description: "Crispy fish sticks with peri peri flavor." },
-            { name: "Chicken Lollipop", img: "images/Chicken-Lollipop.webp", description: "Frenched chicken wings with spicy coating." },
-            { name: "Egg Pakora", img: "images/Egg-pakora.webp", description: "Boiled egg fritters with spicy batter." },
-            { name: "Fish Cutlet", img: "images/fish-cutlet.webp", description: "Pan-fried fish patties seasoned with herbs." }
-          ],
-        },
-        "Main Course": {
-          Veg: [
-            { name: "Paneer Gravy & Naan", img: "images/Paneer-Gravy-&-Naan.webp", description: "Creamy paneer curry with soft naan." },
-            { name: "Masala Dosa", img: "images/Masala-Dovsa.jpg", description: "Crispy dosa filled with spicy potato." },
-            { name: "South Meals", img: "images/South-Meals.jpg", description: "Traditional South Indian thali." },
-            { name: "North Meals", img: "images/North-Meals.jpg", description: "Complete North Indian platter." },
-            { name: "Idli Vada Combo", img: "images/Idli-Vada-Combo.webp", description: "Fluffy idli with crispy vada." },
-            { name: "Rajma Chawal", img: "images/Rajma-Chawal.jpg", description: "Kidney bean curry served with rice." },
-            { name: "Palak Paneer", img: "images/palak-paneer.webp", description: "Spinach-based curry with paneer cubes." },
-            { name: "Chole Bhature", img: "images/cholo.webp", description: "Spicy chickpeas served with fried bread." }
-          ]
-        }
-      }
+      foodItems: {},
     };
-  }
+  },
+  async created() {
+    try {
+      const response = await axios.get("/api/data.json");
+      this.foodItems = response.data;
+    } catch (error) {
+      console.error("Failed to load menu data:", error);
+    }
+  },
 };
 </script>
