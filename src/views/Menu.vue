@@ -57,7 +57,7 @@ export default {
   },
   async created() {
     try {
-      const response = await axios.get("/api/data.json");
+      const response = await axios.get("/api/menu.json");
       this.foodItems = response.data;
     } catch (error) {
       console.error("Failed to load menu data:", error);

@@ -52,7 +52,7 @@ export default {
   },
   mounted() {
     axios
-      .get("/api/data.json")
+      .get("/api/home.json")
       .then((res) => {
         this.highlightTitles = res.data.highlightTitles;
         this.sections = res.data.sections;
