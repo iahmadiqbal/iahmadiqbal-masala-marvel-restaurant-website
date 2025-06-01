@@ -29,7 +29,8 @@
             class="rounded-xl shadow-md sm:shadow-lg overflow-hidden bg-white hover:shadow-orange-300 transition-shadow"
           >
             <img 
-              :src="item.img" 
+      
+              :src="`/images/${item.src}`" 
               :alt="item.name" 
               class="w-full h-40 sm:h-48 object-cover transition-transform duration-300 ease-in-out hover:scale-110"
             />

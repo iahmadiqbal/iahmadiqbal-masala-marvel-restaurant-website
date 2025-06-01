@@ -1,86 +1,87 @@
 {
     "Starters": {
         "Veg": [
+
             {
                 "name": "Spring Roll",
-                "img": "sprin-roll.jpg",
+                "src": "sprin-roll.jpg",
                 "description": "Crispy rolls filled with vegetables."
             },
             {
                 "name": "Hara Bhara Kabab",
-                "img": "hara-bara-kabab.jpg",
+                "src": "hara-bara-kabab.jpg",
                 "description": "Healthy kababs made with spinach and peas."
             },
             {
                 "name": "Paneer Tikka",
-                "img": "paneer-tika.jpg",
+                "src": "paneer-tika.jpg",
                 "description": "Grilled paneer chunks marinated in spices."
             },
             {
                 "name": "Dahi Bhalla Chaat",
-                "img": "dahi-bala-chat.jpg",
+                "src": "dahi-bala-chat.jpg",
                 "description": "Soft lentil balls in seasoned yogurt."
             },
             {
                 "name": "Veg Momos",
-                "img": "momos.jpg",
+                "src": "momos.jpg",
                 "description": "Steamed dumplings stuffed with veggies."
             },
             {
                 "name": "Corn Cheese Balls",
-                "img": "corn-cheez.jpg",
+                "src": "corn-cheez.jpg",
                 "description": "Crispy balls with corn and melted cheese."
             },
             {
                 "name": "Mini Samosas",
-                "img": "Minisamosa.webp",
+                "src": "Minisamosa.webp",
                 "description": "Bite-sized samosas filled with spicy potatoes."
             },
             {
                 "name": "Stuffed Mushrooms",
-                "img": "StuffedMushrooms.jpg",
+                "src": "StuffedMushrooms.jpg",
                 "description": "Mushrooms stuffed with cheese and herbs."
             }
         ],
         "Non-Veg": [
             {
                 "name": "Chilli Prawns",
-                "img": "Chilli-Prawns.jpg",
+                "src": "Chilli-Prawns.jpg",
                 "description": "Spicy prawns tossed with bell peppers."
             },
             {
                 "name": "Chicken Manchurian",
-                "img": "Indo-Chinese.jpg",
+                "src": "Indo-Chinese.jpg",
                 "description": "Indo-Chinese chicken in tangy sauce."
             },
             {
                 "name": "Seekh Kebab",
-                "img": "Seekh-Kebab.jpg",
+                "src": "Seekh-Kebab.jpg",
                 "description": "Spiced minced meat grilled on skewers."
             },
             {
                 "name": "Mutton Vadai",
-                "img": "Mutton-Vadai.jpg",
+                "src": "Mutton-Vadai.jpg",
                 "description": "Crispy mutton patties deep fried to perfection."
             },
             {
                 "name": "Peri Peri Fish Fingers",
-                "img": "fish-fingers.webp",
+                "src": "fish-fingers.webp",
                 "description": "Crispy fish sticks with peri peri flavor."
             },
             {
                 "name": "Chicken Lollipop",
-                "img": "Chicken-Lollipop.webp",
+                "src": "Chicken-Lollipop.webp",
                 "description": "Frenched chicken wings with spicy coating."
             },
             {
                 "name": "Egg Pakora",
-                "img": "Egg-pakora.webp",
+                "src": "Egg-pakora.webp",
                 "description": "Boiled egg fritters with spicy batter."
             },
             {
                 "name": "Fish Cutlet",
-                "img": "fish-cutlet.webp",
+                "src": "fish-cutlet.webp",
                 "description": "Pan-fried fish patties seasoned with herbs."
             }
         ]
@@ -89,44 +90,45 @@
         "Veg": [
             {
                 "name": "Paneer Gravy & Naan",
-                "img": "Paneer-Gravy-&-Naan.webp",
+                "src": "Paneer-Gravy-&-Naan.webp",
                 "description": "Creamy paneer curry with soft naan."
             },
             {
                 "name": "Masala Dosa",
-                "img": "Masala-Dovsa.jpg",
+                "src": "Masala-Dovsa.jpg",
                 "description": "Crispy dosa filled with spicy potato."
             },
             {
                 "name": "South Meals",
-                "img": "South-Meals.jpg",
+                "src": "South-Meals.jpg",
                 "description": "Traditional South Indian thali."
             },
             {
                 "name": "North Meals",
-                "img": "North-Meals.jpg",
+                "src": "North-Meals.jpg",
                 "description": "Complete North Indian platter."
             },
             {
                 "name": "Idli Vada Combo",
-                "img": "Idli-Vada-Combo.webp",
+                "src": "Idli-Vada-Combo.webp",
                 "description": "Fluffy idli with crispy vada."
             },
             {
                 "name": "Rajma Chawal",
-                "img": "Rajma-Chawal.jpg",
+                "src": "Rajma-Chawal.jpg",
                 "description": "Kidney bean curry served with rice."
             },
             {
                 "name": "Palak Paneer",
-                "img": "palak-paneer.webp",
+                "src": "palak-paneer.webp",
                 "description": "Spinach-based curry with paneer cubes."
             },
             {
                 "name": "Chole Bhature",
-                "img": "cholo.webp",
+                "src": "cholo.webp",
                 "description": "Spicy chickpeas served with fried bread."
             }
+        
         ]
     },
     "highlightTitles": [
